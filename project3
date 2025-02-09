@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Chocolates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fff5e1;
+        }
+        .header-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #5d4037;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        nav {
+            background: #5d4037;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 0 15px;
+            border-right: 1px solid white;
+        }
+        nav a:last-child {
+            border-right: none;
+        }
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .product-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .product-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .about {
+            margin: 20px;
+            padding: 10px;
+            max-width: 500px;
+            margin: auto;
+        }
+        footer {
+            background: #5d4037;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-bar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .search-icon {
+            font-size: 18px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-nav">
+        <div>Homemade Chocolates</div>
+        <nav>
+            <a href="#products">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+    <br>
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search chocolates...">
+        <span class="search-icon">&#128269;</span>
+    </div>
+    <section id="products" class="products">
+        <div class="product-box">
+            <img src="https://th.bing.com/th/id/R.a0b1b27d94b1bee8d9ee4834dc1d2c19?rik=Ux8iD%2b9k7x2IkQ&riu=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f24300000%2fchocolate-brown-24384385-1920-1200.jpg&ehk=QdXkD8qWQVvzdIqyo00VJDM772h6EncGzqiJcN4t7bQ%3d&risl=&pid=ImgRaw&r=0" alt="Milk Chocolate">
+            <p>Delicious milk chocolate with a creamy texture.</p>
+        </div>
+        <div class="product-box">
+            <img src="https://images.alphacoders.com/570/thumb-1920-570805.jpg" alt="Dark Chocolate">
+            <p>Rich dark chocolate with 70% cocoa content.</p>
+        </div>
+        <div class="product-box">
+            <img src="https://foodsguy.com/wp-content/uploads/2020/12/Best-White-Chocolate-.jpg" alt="White Chocolate">
+            <p>Sweet and creamy white chocolate for a delightful treat.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We provide the finest quality chocolates.</p>
+        <p>Our chocolates are made from premium ingredients.</p>
+        <p>Customer satisfaction is our priority.</p>
+    </section>
+    
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: Homemadechoco@gmail.com</p>
+        <p>&copy; Homemade Chocolates. All rights reserved.</p>
+    </footer>
+</body>
+</html>
